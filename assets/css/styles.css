@@ -1,7 +1,10 @@
 * {
     font-family: monospace;
 }
-header {
+body{
+    background-color:#DFDFD8 ;
+}
+.Menu {
     background-color: #9EAF6D;
     position: fixed;
     height: 100%;
@@ -9,6 +12,7 @@ header {
     text-align: center;
     font-size: 28px;
     letter-spacing: 7px;
+    font-weight:600;
 }
 
 nav {
@@ -16,11 +20,46 @@ nav {
     top: 20%;
     line-height: 60px;
 }
-li:hover {
+nav li:hover {
     background-color: #6F7E45;
     cursor:pointer;
 }
 .Socials{
     position: relative;
-    top: 50%;
+    top: 45%;
+    #SocialLinks {
+        position: relative;
+        left: 35%; top: 20px;
+        width: fit-content;
+    }
+}
+
+main {
+    position: relative;
+}
+
+.AboutMe {
+    position: absolute;
+    left: 30%; top: 50px;
+    text-align: center;
+    background-color: #B0B0A1;
+    border-radius: 10px;
+    font-size: large;
+}
+
+#myface{
+    position: absolute;
+    top: 10px; left: 80%;
+    border-radius: 360px;
+}
+
+.Projects {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: #B0B0A1;
+    border-radius: 10px;
+    top: 350px; left: 38.5%;
+    width: 450px; height: 250px;
+    
 }
